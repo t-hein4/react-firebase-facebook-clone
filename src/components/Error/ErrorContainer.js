@@ -5,7 +5,6 @@ import Error from "./Error";
 const ErrorContainer = (props) => {
   const [error, setError] = useState();
   const [errorTitle, setErrorTitle] = useState();
-  const [action, setAction] = useState();
 
   if (error) {
     console.error("ERROR", errorTitle, JSON.stringify(error));
@@ -17,7 +16,6 @@ const ErrorContainer = (props) => {
     console.log("Error content", JSON.stringify(err));
     setError(err);
     setErrorTitle(title);
-    setAction(action);
   }, []);
 
   const clearError = () => {
