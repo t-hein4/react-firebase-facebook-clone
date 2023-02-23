@@ -2,6 +2,8 @@
 
 This project is a social media web app that allows users to perform basic functionalities of a social media platform, such as friend requests, posting, commenting, liking, and sharing. In addition, the app enables users to upload images as part of their posts, and the integration with Firebase ensures real-time updates. The app also features a secure authentication system, allowing users to create an account and login securely.
 
+Available at [t-hein-facebook-clone.netlify.app/](https://t-hein-facebook-clone.netlify.app/)
+
 ## Functionality
 
 The social media web app offers the following basic functionalities:
